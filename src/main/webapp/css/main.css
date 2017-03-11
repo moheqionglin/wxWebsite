@@ -1,0 +1,102 @@
+/**common css**/
+
+.navbar-brand{
+    padding-top : 8px;
+}
+.navbar-brand img{
+    width: 100px;
+}
+
+/**index page css**/
+.index-page .table .table tr,
+.index-page .table tr td,
+.index-page .table tr th{
+    border: solid 1px #eee;
+}
+.index-page .table thead{
+    background: #e8e8e8;
+}
+.index-page input[type="text"]{
+    width:225px;
+}
+.index-page .table thead tr th:first-child{
+    width:35%
+}
+.index-page .table thead tr th:last-child{
+    width:30%
+}
+
+/**result page css***/
+.result-page .table .table tr,
+.result-page .table tr td, .table tr th{
+    border: solid 1px #eee;
+}
+.result-page .table thead{
+    background: #e8e8e8;
+}
+.result-page .table thead tr th:first-child{
+    width:10%
+}
+.result-page .table thead tr th:nth-child(2){
+    width:25%
+}
+.result-page .table thead tr th:nth-child(3),
+.result-page .table thead tr th:nth-child(4),
+.result-page .table thead tr th:nth-child(5),
+.result-page .table thead tr th:nth-child(6){
+    width:8%
+}
+
+/*----------side bar page-------------*/
+.contact-side-bar {
+    position: fixed;
+    left: 10px;
+    top: 200px;
+    z-index: 1000;
+    overflow: hidden;
+}
+.contact-side-bar a.closed {
+    width: 32px;
+}
+.contact-side-bar a:hover {
+    background-color: #ed8b1e;
+}
+.contact-side-bar a {
+    display: block;
+    float: right;
+    clear: both;
+    margin-top: 10px;
+    padding-left: 32px;
+    height: 32px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition-property: background-color,width;
+    transition-property: background-color,width;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+}
+.contact-side-bar a.print:hover{
+    background-image: url(/images/sidebar-print.png);
+}
+.contact-side-bar a.print{
+    background-image: url(/images/sidebar-print-white.png);
+}
+.contact-side-bar a.export{
+    background-image: url(/images/sidebar-export-white.png);
+}
+.contact-side-bar a.export:hover{
+    background-image: url(/images/sidebar-export.png);
+}
+.contact-side-bar label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.contact-side-bar a label {
+    cursor: pointer;
+    padding-left: 5px;
+    margin-top: 5px;
+}

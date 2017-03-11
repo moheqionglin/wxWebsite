@@ -1,0 +1,19 @@
+{
+  "name": "selfWeb",
+  "authors": [
+    "zhouwanli2009@yeah.net"
+  ],
+  "description": "website",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
