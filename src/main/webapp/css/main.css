@@ -50,7 +50,7 @@
 /*----------side bar page-------------*/
 .contact-side-bar {
     position: fixed;
-    left: 10px;
+    right: 10px;
     top: 200px;
     z-index: 1000;
     overflow: hidden;
@@ -80,15 +80,23 @@
 }
 .contact-side-bar a.print:hover{
     background-image: url(/images/sidebar-print.png);
+    background-size: 75% 75%;
+    background-position:center
 }
 .contact-side-bar a.print{
     background-image: url(/images/sidebar-print-white.png);
+    background-size: 75% 75%;
+    background-position:center
 }
 .contact-side-bar a.export{
     background-image: url(/images/sidebar-export-white.png);
+    background-size: 75% 75%;
+    background-position:center
 }
 .contact-side-bar a.export:hover{
     background-image: url(/images/sidebar-export.png);
+    background-size: 75% 75%;
+    background-position:center
 }
 .contact-side-bar label {
     display: inline-block;
